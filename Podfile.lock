@@ -14,8 +14,11 @@ PODS:
     - ReactiveCocoa/Core
     - Result (~> 1.0)
   - Result (1.0.2)
+  - RNCryptor (4.0.0)
   - Socket.IO-Client-Swift (5.5.0)
   - SwiftyJSON (2.3.2)
+  - xDripG5 (0.3.1):
+    - RNCryptor (~> 4.0)
 
 DEPENDENCIES:
   - Alamofire
@@ -24,6 +27,7 @@ DEPENDENCIES:
   - ReactiveCocoa (= 4.0.4-alpha-4)
   - Socket.IO-Client-Swift
   - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+  - xDripG5
 
 EXTERNAL SOURCES:
   SwiftyJSON:
@@ -40,9 +44,9 @@ SPEC CHECKSUMS:
   KeychainAccess: 3a21b6944b4f2a22653f091d770cf10374961a94
   ReactiveCocoa: e459ea92099447802df20c4735e31e8139b06094
   Result: dd3dd71af3fa2e262f1a999e14fba2c25ec14f16
+  RNCryptor: 59d6483908115af5c12b884db23392024e52a5fe
   Socket.IO-Client-Swift: f39dbd4e9b295907bb7fd4b9588b89c00426783d
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  xDripG5: 28cad9ea4bdacbaac1ad2631eaba46f02666d1af
 
-PODFILE CHECKSUM: 28f49fdac11262b93e08921221742f50bda45a07
-
-COCOAPODS: 1.0.0.beta.6
+COCOAPODS: 0.39.0

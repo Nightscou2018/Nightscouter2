@@ -7,6 +7,7 @@ inhibit_all_warnings!
 def limited_pods
 inhibit_all_warnings!
     pod 'Socket.IO-Client-Swift'    
+    pod 'xDripG5'
     #pod 'DateTools'
 end
 
@@ -22,14 +23,14 @@ end
 
 # iOS9 App with some UI.
 target 'Nightscouter' do
-    platform :ios, '9.0'
+    platform :ios, '9.2'
     limited_pods
     global_pods
 end
 
 # iOS9 Today Extension with some UI.
 target 'Nightscouter Today' do
-    platform :ios, '9.0'
+    platform :ios, '9.2'
     limited_pods
     global_pods
 
@@ -37,8 +38,7 @@ end
 
 # iOS9 Based Cocoa Touch Framework used in 'Nightscouter' and 'Nightscouter Today'.
 target 'NightscouterKit' do
-    platform :ios, '9.0'
-
+    platform :ios, '9.2'
     limited_pods
     global_pods
 end
